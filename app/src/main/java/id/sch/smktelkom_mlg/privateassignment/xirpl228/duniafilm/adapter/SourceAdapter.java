@@ -15,10 +15,9 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import javax.xml.transform.Source;
-
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.DatabaseHelper;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.R;
+import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.model.Source;
 
 /**
  * Created by Mokleters on 6/13/2017.
@@ -100,5 +99,3 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.ViewHolder
                 }
             }
         }
-    }
-}
