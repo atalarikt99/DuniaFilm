@@ -1,6 +1,6 @@
 Dunia Film
 
-Link APK: https://drive.google.com/open?id=0B_Jz7hWTfG_LQmpPLV9SRFBQb2s
+Link APK: https://drive.google.com/open?id=0B_Jz7hWTfG_LdkRyaGxBeWJiMDA
 
 Nama: Taufan Atalarik
 
@@ -14,7 +14,7 @@ SMK Telkom Malang
 
 Alamat API: https://www.themoviedb.org/documentation/api
 
-Jenis Navigasi: Tabbed Swipe
+Jenis Navigasi: Tabbed Navigation + Swipe Navigation
 
 Library Database: SQLite dasar
 
@@ -23,3 +23,10 @@ yaitu film yang tayang sekarang, film yang akan ditayangkan, dan film yang memil
 
 Kelebihan: Dunia Film memperbolehkan pengguna menyimpan judul film favorit mereka, agar tidak perlu
 repot-repot mencari lagi bila keluar dari aplikasi sebelumnya.
+
+Screenshot:
+[Screenshot pertama](https://s29.postimg.org/ohf8ml4l3/Screenshot_2017-06-13-15-56-16-355.jpg)
+[Screenshot kedua](https://s29.postimg.org/64enc0u47/Screenshot_2017-06-13-15-56-19-910.jpg)
+[Screenshot ketiga](https://s29.postimg.org/4qn0gpuuv/Screenshot_2017-06-13-15-56-25-727.jpg)
+[Screenshot keempat](https://s29.postimg.org/634pilsaf/Screenshot_2017-06-13-15-56-44-425.jpg)
+[Screenshot kelima](https://s29.postimg.org/lfogcmrg7/Screenshot_2017-06-13-15-57-18-661.jpg)
