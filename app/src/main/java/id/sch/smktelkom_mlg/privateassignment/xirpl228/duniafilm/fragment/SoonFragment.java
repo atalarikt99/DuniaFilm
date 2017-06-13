@@ -53,7 +53,7 @@ public class SoonFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         mAdapter = new SourceAdapter(this.getActivity(), mList);
         recyclerView.setAdapter(mAdapter);
-        
+
         downloadDataSource();
     }
 
