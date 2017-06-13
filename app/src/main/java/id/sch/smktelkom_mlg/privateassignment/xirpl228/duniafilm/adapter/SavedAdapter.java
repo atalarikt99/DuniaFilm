@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -33,8 +34,29 @@ public class SavedAdapter extends RecyclerView.Adapter<SavedAdapter.ViewHolder> 
         return vh;
     }
 
+    @Override
     public void onBindViewHolder(ViewHolder holder, int position)
     {
-        holder.
+        holder.tvTitle.setText(savedList.get(position).getTitle());
+        holder.tvDesc.setText(savedList.get(position).getDesc());
+    }
+
+    @Override
+    public int getItemCount()
+    {
+        return savedList.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder
+    {
+        TextView tvTitle, tvDesc;
+
+        public ViewHolder(View itemView)
+        {
+            super(itemView);
+
+            tvTitle = (TextView) itemView.findViewById(R.id.viewTitle);
+            tvDesc = (TextView) itemView.findViewById(R.id.viewDesc);
+        }
     }
 }
