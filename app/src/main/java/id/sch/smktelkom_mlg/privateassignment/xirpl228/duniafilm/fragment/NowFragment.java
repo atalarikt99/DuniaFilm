@@ -16,14 +16,15 @@ import com.android.volley.VolleyError;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
-
-import javax.xml.transform.Source;
+import java.util.Collection;
 
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.adapter.SourceAdapter;
+import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.model.Source;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.model.SourcesResponse;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.service.GsonGetRequest;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.service.VolleySingleton;
+
 
 
 /**
@@ -69,7 +70,7 @@ public class NowFragment extends Fragment {
                 Log.d("FLOW", "onResponse: " + (new Gson().toJson(response)));
                 if (response.page.equals("1"))
                 {
-                    mList.addAll(response.results);
+                    mList.addAll((Collection<? extends Source>) response.results);
                     mAdapter.notifyDataSetChanged();
                 }
             }
