@@ -16,7 +16,6 @@ import com.android.volley.VolleyError;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.adapter.SourceAdapter;
@@ -70,7 +69,7 @@ public class NowFragment extends Fragment {
                 Log.d("FLOW", "onResponse: " + (new Gson().toJson(response)));
                 if (response.page.equals("1"))
                 {
-                    mList.addAll((Collection<? extends Source>) response.results);
+                    mList.addAll(response.results);
                     mAdapter.notifyDataSetChanged();
                 }
             }
