@@ -17,6 +17,8 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 
+import javax.xml.transform.Source;
+
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.adapter.SourceAdapter;
 import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.model.SourcesResponse;
@@ -27,7 +29,7 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.service.VolleyS
  * A simple {@link Fragment} subclass.
  */
 public class TopRatedFragment extends Fragment {
-    ArrayList<javax.xml.transform.Source> mList = new ArrayList<>();
+    ArrayList<Source> mList = new ArrayList<>();
     SourceAdapter mAdapter;
 
     public TopRatedFragment() {
