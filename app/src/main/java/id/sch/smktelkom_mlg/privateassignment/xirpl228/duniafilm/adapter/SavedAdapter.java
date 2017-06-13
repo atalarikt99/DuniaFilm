@@ -32,4 +32,9 @@ public class SavedAdapter extends RecyclerView.Adapter<SavedAdapter.ViewHolder> 
         ViewHolder vh = new ViewHolder(v);
         return vh;
     }
+
+    public void onBindViewHolder(ViewHolder holder, int position)
+    {
+        holder.
+    }
 }
