@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm;
+package id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.fragment;
 
 
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import id.sch.smktelkom_mlg.privateassignment.xirpl228.duniafilm.R;
 
 
 /**
